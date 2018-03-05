@@ -9,10 +9,13 @@ body {
   background-color: #2F99A5;
   color: white;
   border-width:20px;
-  border-style:groove; 
+  border-style:groove;
+  font-family:"Optima",serif;
+  
 }
 h1 {
-  font-size: 45px;
+  font-family:"freemono",monospace;
+  font-size: 40px;
   color: #0E6A49;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -34,22 +37,31 @@ h3 {
 #img1 {
   position:relative;
   float:left;
+
 }
 #img2 {
   position:relative;
-  float:center; 
+  float:center;
+ 
 }
 #img3 {
   position:relative;
   float:right;
   }
+
+p{
+  margin: 15px 0px 0px 0px;
+}
+#ul_li {
+  margin: 15px 0px 5px 0px;
+}
 </style>
 </head>
 
 
 <!--Begin HTML-->
 <div calss="container-fluid">
-  <h1 class="text-center">Euclid: The Greek Mathematician</h1>
+  <h1 class="text-center"><strong>Euclid: The Greek Mathematician</strong></h1>
    <div class="row">
      <div class="col-xs-12">
 <table border="0%" width="50%" align="center"> 
@@ -62,10 +74,10 @@ h3 {
 
 <h3 class="text-center">Euclid of Alexander: Father of Geometry and One Of the Greatest Mathematicians To Ever Live</h3>
 <div class="row">
-  <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+  <div class="col-xs-10  col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-4">
     <p>Euclid was the first mathematician to put his ideas into a single, cohesive book of logic. His book, <em>Elements,</em> is historically the most popular mathematics teaching book and is still the most popular textbook used to teach graduate level Geometry in pure math concentrations. Here's a list of axioms and postulates from his book, <em>Elements</em> :</p>
 <ul>
-  <li><strong>Axioms:</strong>
+  <li id="ul_li"><strong>Axioms:</strong>
     <ol>
       <li>Things which are equal to the same thing are also equal to one another.</li>
       <li>If equals are added to equals, the whole are equal.</li>
@@ -74,7 +86,7 @@ h3 {
       <li>The whole is greater than the part.</li>
     </ol>
   </li>
-  <li><strong>Postulates:</strong>
+  <li id="ul_li"><strong>Postulates:</strong>
     <ol>
       <li>To draw a line from any point to any point.</li>
       <li>To produce a finite straight line continuously in a straight line.</li>
@@ -90,4 +102,7 @@ h3 {
 </div>
 
 <h3 class="text-center">If you want to know more about Euclid, please visit the <a href="https://en.wikipedia.org/wiki/Euclid">Wikipedia</a> page on Euclid.</h3>
+  <hr>
+  <footer class="margin text-center">This page was created by Evan Lutz for educational purposes only.</footer>
+
 </div>
