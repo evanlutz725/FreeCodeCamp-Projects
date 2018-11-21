@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Bootstrap Practice</title>
+    <style>
+      body {
+        font-family:georgia;
+        background-image:url("https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/29101097_10204199556546005_5904580346506314422_n.jpg?_nc_cat=101&_nc_ht=scontent-dfw5-1.xx&oh=3a1c33441137cbe4c3b3a81047168aff&oe=5C6E9690");
+        background-size:75%;
+        }
+      .first {
+        background-color:#B2D9EB;
+        text:left;
+        font-size:20px;
+        border-radius:30px;
+        margin-top:100px;
+        padding:20px;
+        }
+      .round {
+        border-radius: 10px 10px 10px 10px;
+        border-color: white;
+        border-width: 3px;
+        border-style: solid;
+        }
+      .second {
+        background-color:#B2D9EB;
+        font-size:20px;
+        border-radius:30px;
+        margin-top:50px;
+        padding:20px;
+        }
+      .card {
+        height: 100%;
+        width: 100%;
+        box-shadow: 0 0px 20px rgba(0,0,0,0.5), 0 6px 6px rgba(0,0,0,0.5);
+        }
+      .card-div {
+        padding:20px;
+        }
+      .btn-primary {
+        background:gray;
+        border-color:black;
+        border-width:1px;
+        }
+      .shadowbox {
+        box-shadow: 0 0px 20px rgba(0,0,0,0.5), 0 6px 6px rgba(0,0,0,0.5);
+        margin:20px;
+        width:50%;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <h7 class="navbar-brand">Evan Lutz Portfolio</h7>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link nav-link1" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link1" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link1" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link nav-link2" href="https://www.freecodecamp.org/evanlutz725" target="_blank">FreeCodeCamp</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link nav-link2" href="https://www.linkedin.com/in/evan-lutz-785a86b4/" target="_blank">Linkedin</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link nav-link2" href="https://github.com/evanlutz725" target="_blank">GitHub</a>
+          </li>
+        </ul>
+        <div class="col-lg-5 offset-3-lg">
+          <span class="navbar-text text-center">
+            "Everything is Mathematics is either an axiom or a tautology.
+             Either we assume it's true or we know it's true."
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- first container: descriptions and headshot-->
+    <div class="first container">
+      <h1 class="row justify-content-center">Evan Lutz Portfolio</h1>
+      <hr>
+      <p>My name is Evan Lutz and I am excited that you have taken the time to view my webpage portfolio! I love Math. I enjoy the algorithms and logic of Mathematics, which eventually led me to the world of Computer Programming and Data Science. The intriguing thing about Programming is that it has the far-reaching capabilities to be applied to the real world in ways that Pure Mathematics does not. I began learning to code with HTML, CSS, and Bootstrap through FreeCodeCamp.org in late February of this year and I now know the basics. I am also learning JavaScript as well as Python. I am learning programming quickly with much satisfaction, and I am eager to find a company that will see my potential, strong work ethic and determination to learn more while thoroughly enjoying my job. I graduated in 2018 with a Bachelors in Mathematics (with honors and a GPA of 3.75) and I am working on my MS in Math. I live in McKinney, TX with my family. I am a dedicated husband and father, and I love to spend quality time with my family. Sometimes this includes letting my two-year-old son sit on my lap while I also “teach him coding”, or let my four-year-old play peek-a-boo behind my computer screen while I debug a webpage. I am also a crazy coffee fanatic, and I love to roast my own coffee and do my own pour overs at home. Thanks for taking the time to check out my webpage portfolio and feel free to come back again in couple days; there will most likely be something new as I continue to learn more skills!</p>
+      <p>I am presently for hire. Please check out my GitHub to see some of the small projects and algorithms that I have scripted (including some problems that I have tackled form Project Euler). Everything on my page has been scripted organically from scratch, with the exception of the navbar used for this webpage that cam from the bootstrap documentation webpage.</p>
+      <div class="row">
+        <div class="justify-content-center col-md-6" style="padding:20px">
+          <img class="round img-fluid" src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/28872332_10204188043498186_6059345229934293253_n.jpg?_nc_cat=106&_nc_ht=scontent-dfw5-1.xx&oh=77a8992b2ce02c7d4a965c90beac0b45&oe=5CB0FC26" alt="Evan Lutz Headshot">
+        </div>
+        <div class="justify-content-center col-md-6">
+          <ul>Here is a list of my skills, achievements, and current self teaching topics:
+            <li>BA Mathematics from SNHU</li>
+            <li>AA Business Administration</li>
+            <li>Learning Python (examples can be seen at my GitHub)</li>
+            <li>Current Total of Project Euler Problems Solved: 13</li>
+            <li>
+            <ul>Web Development including
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+              <li>JavaScript</li>
+              </ul>
+           </ul>
+        </div>
+      </div>
+      <div class="row" id="portfolio">
+      </div>
+    </div>
+    <!-- second container: row of cards for portfolio-->
+    <div class="container second">
+      <h2 class="row justify-content-center">FreeCodeCamp Projects</h2>
+      <hr>
+      <div class="row">
+        <div class="col-md-4 card-div">
+          <div class="card">
+            <img class="card-img-top"  src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/28796176_10204188147140777_6829810787891680905_n.jpg?_nc_cat=102&_nc_ht=scontent-dfw5-1.xx&oh=8db50933fa5dd8d31d6cdaa65c34a058&oe=5C81CD5E" alt="Euclid Website Screenshot">
+            <div class="card-body">
+              <h5 class="card-title justify-content-center"><strong>Euclid Tribute Page</strong></h5>
+              <p class="card-text">A Tribute Page to Euclid: The Father of Geometry</p>
+              <a  href="https://codepen.io/evanlutz725/full/qxGaMp" target="_blank" class="btn btn-primary">Visit Webpage</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 card-div">
+          <div class="card">
+          <img class="card-img-top" src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/46517071_10205091261838080_9042047837696688128_n.jpg?_nc_cat=109&_nc_ht=scontent-dfw5-1.xx&oh=9437248e4266d42370e953e82473678e&oe=5C696668" alt="Space For Future Work Image">
+          <div class="card-body">
+            <h5 class="card-title justify-content-center"><strong>Space for Future Work</strong></h5>
+            <p class="card-text">Coming Soon!</p>
+            <a class="btn btn-primary">Future Work</a>
+          </div>
+        </div>
+      </div>
+        <div class="col-md-4 card-div">
+          <div class="card">
+            <img class="card-img-top" src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/46517071_10205091261838080_9042047837696688128_n.jpg?_nc_cat=109&_nc_ht=scontent-dfw5-1.xx&oh=9437248e4266d42370e953e82473678e&oe=5C696668" alt="Space For Future Work Image">
+            <div class="card-body">
+              <h5 class="card-title justify-content-center"><strong>Space for Future Work</strong></h5>
+              <p class="card-text">Coming Soon!</p>
+              <a class="btn btn-primary">Future Work</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="contact">
+      </div>
+    </div>
+    <!-- third containter: contact me with buttons and family photo-->
+    <div class="container second">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="col">
+            <h3 class="row justify-content-center">Contact Me at</h3>
+          </div>
+          <div class="col">
+            <h3 class="row justify-content-center">evanlutz7.25@gmail.com</h3>
+          </div>
+          <div class="col">
+            <div class="col row justify-content-center">
+              <a href="https://www.freecodecamp.org/evanlutz725" target="_blank" class="btn btn-primary shadowbox">FreeCodeCamp</a>
+            </div>
+            <div class="col row justify-content-center">
+              <a href="https://www.linkedin.com/in/evan-lutz-785a86b4/" target="_blank" class="btn btn-primary shadowbox">Linkedin</a>
+            </div>
+            <div class="col row justify-content-center">
+              <a href="https://github.com/evanlutz725" target="_blank" class="btn btn-primary shadowbox">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img class="round img-fluid justify-content-center" src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/46764769_10205101036962452_1908139306870898688_n.jpg?_nc_cat=110&_nc_ht=scontent-dfw5-1.xx&oh=c2798b68b6e06057ce5f3fee66a4406b&oe=5C79FEA9" alt="Evan's Family">
+        </div>
+      </div>
+    </div>
+    <footer class="row justify-content-center bg-dark" style="margin-top:20px; color:white">THIS PAGE WAS CREATED BY AND FOR EVAN LUTZ</footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
